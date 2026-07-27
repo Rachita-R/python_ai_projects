@@ -1,23 +1,22 @@
+
 **Description:**
-* An AI-powered resume evaluation tool built with Python, Streamlit, and the Groq API.    
-* The application allows users to upload resumes in PDF or TXT format and receive comprehensive AI-generated feedback tailored to a specific job role. 
-* It analyzes resume content, evaluates ATS compatibility, highlights strengths and weaknesses, assigns resume scores, and provides actionable recommendations to improve interview readiness.
+* An image classification web application built using Python, TensorFlow, MobileNetV2, and Streamlit. 
+* Users can upload an image, and the application preprocesses it before passing it through a pre-trained MobileNetV2 deep learning model trained on the ImageNet dataset. 
+* The model predicts the top matching object categories and displays the results with confidence scores through an intuitive web interface.
 
 **Features:**
-Upload PDF or TXT resumes
-Automatic text extraction from resumes
-AI-generated resume analysis
-Resume quality score
-ATS compatibility score
-Role-specific feedback
-Strengths and improvement suggestions
-Clean and interactive Streamlit interface
+Upload JPG, JPEG, and PNG images
+Real-time image classification
+Displays Top-3 predictions
+Confidence score for each prediction
+Fast inference using MobileNetV2
+User-friendly Streamlit interface
 
 **Tech Stack:**
 Language: Python
 Frontend/UI: Streamlit
-PDF Processing: PyPDF2
-LLM: Llama 3.1 8B Instant (Groq)
-API: Groq API
-Environment: Python Dotenv
-Utilities: io, os
+Deep Learning Framework: TensorFlow (Keras)
+Model: MobileNetV2 (ImageNet Pre-trained)
+Image Processing: OpenCV, NumPy, Pillow (PIL)
+Machine Learning: TensorFlow Keras Applications
+Deployment: Streamlit

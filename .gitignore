@@ -1,0 +1,3 @@
+# Keep local environment files out of git
+ai_chatbot/.env
+ai_resume_critiquer/.env
